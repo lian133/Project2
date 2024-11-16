@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-class Profile
+class Page
 {
 public:
 	void init();
