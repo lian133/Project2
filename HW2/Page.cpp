@@ -2,33 +2,33 @@
 #include <iostream>
 #include <string>
 
-void Profile::init()
+void Page::init()
 {
 	this->posts = nullptr;
 	this->status = nullptr;
 }
 
-std::string Profile::getPosts()
+std::string Page::getPosts()
 {
 	return this->posts;
 }
 
-std::string Profile::getStatus()
+std::string Page::getStatus()
 {
 	return this->status;
 }
 
-void Profile::clearPage()
+void Page::clearPage()
 {
 	this->posts = nullptr;
 }
 
-void Profile::setStatus(std::string status)
+void Page::setStatus(std::string status)
 {
 	this->status = status;
 }
 
-void Profile::addLineToPosts(std::string new_line)
+void Page::addLineToPosts(std::string new_line)
 {
 	this->posts += new_line + "/n";
 }
